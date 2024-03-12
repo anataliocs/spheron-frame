@@ -51,7 +51,9 @@ export default async function Home({ searchParams }: NextServerPageProps) {
   // Here: do a server side side effect either sync or async (using await), such as minting an NFT if you want.
   // example: load the users credentials & check they have an NFT
 
-  console.log("info: state is:", state);
+  // TODO import Spheron SDK to deploy here
+
+  console.log("Info: state is:", state);
 
   // then, when done, return next frame
   return (
@@ -68,7 +70,7 @@ export default async function Home({ searchParams }: NextServerPageProps) {
         previousFrame={previousFrame}
       >
         {/* <FrameImage src="https://framesjs.org/og.png" /> */}
-        <FrameImage aspectRatio="1.91:1">
+        <FrameImage>
           <div tw="w-full h-full bg-slate-700 text-white justify-center items-center flex flex-col">
             <div tw="flex flex-row">
               {frameMessage?.inputText ? frameMessage.inputText : "Deploy with Spheron"}
