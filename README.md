@@ -7,7 +7,6 @@ Reference application for using `frames.js` to deploy to Spheron from a Farcaste
 If running from the frames.js repository itself:
 
 - Run `yarn` from the repository root
-- Run `cd examples/framesjs-starter`
 
 1. Install dependencies `yarn install`
 
@@ -26,9 +25,3 @@ If running from the frames.js repository itself:
 - [Frames.js Documentation](https://framesjs.org)
 - [Awesome frames](https://github.com/davidfurlong/awesome-frames?tab=readme-ov-file)
 - Join the [/frames-dev](https://warpcast.com/~/channel/frames-devs) channel on Farcaster to ask questions
-
-## Deploy
-
-```bash
-vercel
-```
